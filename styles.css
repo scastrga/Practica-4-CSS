@@ -1,0 +1,71 @@
+.padre{
+  width: 500px;
+  height: 500px;
+  background-color: grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hijo1{
+width: 45%;
+height: 90%;
+background-color: lightgray;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.hijo2{
+  width: 45%;
+  height: 90%;
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+
+.verde1{
+  width: 85%;
+  height: 20%;
+  background-color: green;
+  display: flex;
+}
+
+.verde2{
+  width: 85%;
+  height: 20%;
+  background-color: green;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  box-sizing: border-box;
+  padding-top: 8;
+  
+}
+
+.azul{
+  width: 45%;
+  height: 90%;
+  background-color: blue;
+
+}
+
+.azul2{
+  width: 45%;
+  height: 90%;
+  background-color: blue;
+}
+
+
+
+.verde3{
+  width: 85%;
+  height: 20%;
+  background-color: green;
+  display: flex; 
+}
+
